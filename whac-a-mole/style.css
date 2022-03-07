@@ -1,0 +1,31 @@
+body {
+  background: radial-gradient(#a93226, #a93226);
+}
+
+.grid {
+  margin: 0 auto;
+  height: 456px;
+  width: 456px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+  cursor: grab;
+}
+
+.number {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10em;
+  padding-right: 10em;
+}
